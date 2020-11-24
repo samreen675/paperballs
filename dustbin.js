@@ -7,6 +7,7 @@ constructor(x,y,width,height){
   friction:1
 }
 this.body=Bodies.rectangle(x,y,width,height,options)
+World.add(world, this.body)
 this.width=width
 this.height=height
 }

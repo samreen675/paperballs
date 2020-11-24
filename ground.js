@@ -1,10 +1,7 @@
 class ground{
 constructor(x,y,width,height){
  var options={
-    density:1.2,
-    isStatic:false ,
-    friction:0.2,
-    restitution:0
+   isStatic: true
     
 }
    this.body=Bodies.rectangle(x,y,width,height,options)
